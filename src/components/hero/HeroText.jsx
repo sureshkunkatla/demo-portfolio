@@ -31,7 +31,7 @@ const HeroText = () => {
         >
           My Work
         </button>
-        <a href="https://drive.google.com/file/d/1P5wB08ayTI3oT8wr5uHVZOHv4XmkC-j8/view?usp=drive_link" target="_blank"><div className="bg-goldenYellow p-2 rounded-md text-midnightBlue font-semibold ml-2">
+        <a href="https://drive.google.com/file/d/107bWCoHCwSyVaVkinrwRawxMkcr06I1o/view?usp=sharing" target="_blank"><div className="bg-goldenYellow p-2 rounded-md text-midnightBlue font-semibold ml-2">
           Resume
         </div></a>
       </div>
