@@ -270,7 +270,7 @@ const ContactMain = () => {
                 <FaLinkedin className="w-5 h-5 text-primary text-white" />
               </div>
               <div>
-                <h3 className="font-medium text-white">Phone</h3>
+                <h3 className="font-medium text-white">LinkedIn</h3>
                 <a
                   href="https://www.linkedin.com/in/sureshkunkatla/"
                   target="_blank"

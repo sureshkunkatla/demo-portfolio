@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import ABoutMain from "./components/about/ABoutMain.jsx";
 import CertificatesMain from "./components/certificates/CertificatesMain.jsx";
@@ -7,6 +7,8 @@ import NavBarMain from "./components/navBar/NavBarMain.jsx";
 import ProjectMain from "./components/projects/ProjectMain.jsx";
 import SkillsMain from "./components/skills/SkillsMain.jsx";
 import ContactMain from "./components/contact/ContactMain.jsx";
+import { Helmet } from "react-helmet";
+import SEO from "./components/seo/SEO.jsx";
 
 function App() {
   const [stars, setStars] = useState([]);
@@ -22,6 +24,7 @@ function App() {
 
   return (
     <>
+      <SEO/>
       <NavBarMain />
       <div className=" space-background relative overflow-hidden">
         {stars.map((star, idx) => (
